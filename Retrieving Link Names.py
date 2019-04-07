@@ -1,4 +1,4 @@
-""" Exercise 6 """
+""" Exercise 7 """
 
 # libraries for connecting to host, port, sending request and regular expression
 import urllib.request, urllib.error, urllib.parse, re
