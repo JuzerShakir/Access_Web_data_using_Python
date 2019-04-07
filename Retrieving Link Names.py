@@ -1,4 +1,4 @@
-""" Exercise 3  """
+""" Exercise 6 """
 
 # libraries for connecting to host, port, sending request and regular expression
 import urllib.request, urllib.error, urllib.parse, re
@@ -32,9 +32,9 @@ while i <= reps:
     # appends list to list, resulting in list of list
     names.append(name)
 
-    # connects to host and port and reads
+    # connects to host and port and reads, returns string (UTF-8) format
     html = urllib.request.urlopen(visit_link).read()
-    # makes the html beatiful and easy to work with
+    # makes the html beautiful and easy to work with
     soup = BeautifulSoup(html, 'html.parser')
 
     # extracts all anchor tags for links, outputs a list
